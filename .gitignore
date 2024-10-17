@@ -1,0 +1,11 @@
+bin/
+include/
+lib/
+lib64/
+*.py[cod]
+__pycache__/
+.env
+.venv
+.mypy_cache/
+.pytest_cache/
+poetry.lock
