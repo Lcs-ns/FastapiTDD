@@ -2,7 +2,7 @@ from uuid import UUID
 from pydantic import ValidationError
 import pytest
 from store.schemas.product import ProductIn
-from tests.factories import product_data
+from tests.schemas.factories import product_data
 
 
 def test_schemas_return_success():
